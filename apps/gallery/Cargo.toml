@@ -1,0 +1,11 @@
+[package]
+name = "gallery"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[dependencies]
+cmf-wp2-app = { git = "https://github.com/fmctools/cmf-watch-sdk" }
+cmf-wp2-ui = { git = "https://github.com/fmctools/cmf-watch-sdk" }
